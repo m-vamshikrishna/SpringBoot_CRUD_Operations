@@ -17,8 +17,9 @@ import com.project.fullStack.exception.UserNotFoundExcepiton;
 import com.project.fullStack.model.User;
 import com.project.fullStack.repository.UserRepository;
 
+
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin(origins = "*")
 
 public class UserController {
     @Autowired
